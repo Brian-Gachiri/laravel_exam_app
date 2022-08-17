@@ -78,6 +78,7 @@
 
                     <div class="card mt-3">
                         <div class="card-body">
+                            <span class="badge bg-primary">{{$question->category->name}}</span>
                             <h5>{{$question->question}}?</h5>
                             <ol type="a">
                                 <li>{{$question->choice_1}}</li>
